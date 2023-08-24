@@ -1,0 +1,52 @@
+a{
+    text-decoration: none;
+}
+.container-fluid{
+    background-color: rgb(8,12,47);
+    background: linear-gradient(
+            to bottom right,
+            rgb(8,12,47) 0%,
+            rgb(8,12,47) 60%,                                                                 
+            rgb(31 35 52) 40%,
+            rgb(8,12,47) 100%
+    )
+}
+aside{
+    background-color: rgb(4, 7, 34);
+    height:100vh;
+    width:100px;
+    /*logo*/
+    .logo{
+        background-color: black;
+        
+        .image{
+           
+            border-radius: 50%;
+            img{
+                width:60px;
+                height: 60px;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+         
+        }
+        p{
+            font-family: "Sofia", sans-serif;
+            color: antiquewhite;
+        }
+    }
+    /*nav items*/
+    ul{
+        padding-right:.5rem;
+        padding-left:1rem;
+        li{
+            list-style: none;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            a{
+                color:aqua;
+                font-family:  "Trirong", serif;
+            }
+        }
+    }
+}

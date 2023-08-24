@@ -1,0 +1,47 @@
+section{
+    
+    .container-fluid{
+      
+        .details{
+            padding:6rem;
+            h1{
+                color:antiquewhite;
+                font-size: 56px;
+            }
+            p{
+                color:#819d81;
+            }
+            .download-btn{
+                text-decoration: none;
+                box-sizing: border-box;
+                padding: .5rem;
+                background-color: transparent;
+                border:1px solid #198754;
+                display: flex;
+                align-items: center;
+                border-radius: 5px;
+                color:#198754;
+                margin-left: 1.5rem;
+                &:hover{
+                    background-color: #198754;
+                    color:#fff;
+                }
+            }
+        }
+        .image{
+            position: relative;
+            height:100vh;
+            width:300px;
+            
+           
+            img{
+                position: absolute;
+                height:100%;
+                width:100%;
+                object-fit: cover;
+                bottom:0%;
+                right:0%;
+            }
+        }
+    }
+}

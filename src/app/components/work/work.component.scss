@@ -1,0 +1,70 @@
+section{
+    .container-fluid{
+      
+       
+            padding:6rem;
+            h1{
+                color:antiquewhite;
+                font-size: 56px;
+            }
+          
+            p{
+                color:#819d81;
+            }
+            .work-item{
+                a{
+                    font-size: 25px;
+                    color:aqua;
+                }
+            }
+            //carousel section
+           
+    .carouselSection{
+        
+        .sliderWrap{
+            position: relative;
+            overflow: hidden;
+            height: 500px;
+            width: 1000px;
+            .slider-main{
+                position: absolute;
+                width: 200%;
+                .item{
+                    display: inline-block;
+                    width: 1000px;
+                    height:500px;
+                    position: relative;
+                    
+                    .text{
+                        position: absolute;
+                        top:50%;
+                        left:45%;
+                        transform: translate(-50%,-50%);
+                        color: #fff;
+                        font-weight: bolder;
+                        width:80%;
+                        img{
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+            .prevBtn{
+                position: absolute;
+                left:32px;
+                top:95%;
+                transform: translate(-50%, -50%);
+            }
+            .nextBtn{
+                position: absolute;
+                right:-17px;
+                top:95%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}
+        
+    
+}
