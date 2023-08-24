@@ -1,0 +1,27 @@
+section{
+    .container-fluid{
+      width:1200px;
+       
+            padding:6rem;
+            h1{
+                color:antiquewhite;
+                font-size: 56px;
+            }
+          
+            p{
+                color:#819d81;
+            }
+           .PortfolioDetails{
+            display: flex;
+            justify-content: space-around;
+            
+           .card-img-top{
+                height:180px;
+           }
+            .card-body{
+                background-color: #d5d2cd;
+            }
+           }
+       
+    }
+}

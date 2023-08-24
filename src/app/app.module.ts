@@ -12,6 +12,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { NextbtnDirective } from './btn-Directives/nextbtn.directive';
 import { PrevbtnDirective } from './btn-Directives/prevbtn.directive';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PrevbtnDirective } from './btn-Directives/prevbtn.directive';
     HeaderComponent,
     FooterComponent,
     NextbtnDirective,
-    PrevbtnDirective
+    PrevbtnDirective,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
